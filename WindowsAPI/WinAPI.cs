@@ -8,7 +8,7 @@ namespace Less.API.NetFramework.WindowsAPI
     /// <summary>
     /// Windows API의 메서드 목록을 담고 있는 클래스입니다.
     /// </summary>
-    public sealed class Windows
+    public sealed class WinAPI
     {
         // 버전 정보
         private static string FullApiVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
